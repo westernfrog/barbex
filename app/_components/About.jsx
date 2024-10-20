@@ -23,7 +23,7 @@ export default function About(params) {
               </div>
             </div>
             <p className="text-lg pb-4">
-              Haircut" is a term used to describe when a person removes the hair
+              Haircut is a term used to describe when a person removes the hair
               on their head. This is done to allow for better access to the part
               of the body that needs cutting.
             </p>
