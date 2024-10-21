@@ -31,7 +31,7 @@ export default function Header(params) {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="sticky z-50 top-0 inset-x-0 bg-dark text-white">
+      <header className="fixed z-50 top-0 inset-x-0 bg-dark text-white">
         <div className="flex items-center justify-between lg:px-16 px-6 lg:py-6 py-4">
           <div className="flex items-center divide-x divide-white">
             <Link

@@ -8,6 +8,7 @@ body {
   color: #0f1212;
   background-color: #eee;
   font-family: var(--font-geist-sans);
+  overflow: hidden;
 }
 
 .pulse {
