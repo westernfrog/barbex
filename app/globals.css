@@ -7,8 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #0f1212;
   background-color: #eee;
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-headingSans);
   overflow: hidden;
+}
+
+p {
+  font-family: var(--font-paragraphSans);
 }
 
 .pulse {
