@@ -77,7 +77,7 @@ export default function Header(params) {
               </li>
             </ul>
           </nav>
-          <button onClick={() => setOpen(true)}>
+          <button className="lg:hidden block" onClick={() => setOpen(true)}>
             <MenuIcon size={26} />
           </button>
           <Transition show={open}>
