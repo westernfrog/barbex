@@ -30,7 +30,36 @@ export default function Overview(params) {
 
   return (
     <>
-      <section className="relative w-screen h-screen overflow-hidden">
+      <section className="relative z-20 h-screen flex items-center ring-1">
+        <div className="text-white max-w-7xl mx-auto lg:p-0 p-6">
+          <div className="grid lg:grid-cols-12 gap-x-10">
+            <div className="col-span-6">
+              <h4 className="text-primary font-medium text-xl mb-4">
+                Welcome to our Barbex
+              </h4>
+              <h1 className="lg:text-7xl text-5xl font-medium tracking-tight lg:leading-[5rem]">
+                Best Hair Salon for a Professional Look
+              </h1>
+              <div className="flex items-center gap-4 pt-6">
+                <Link
+                  href="/"
+                  className="flex items-center gap-2 bg-primary text-white px-8 py-4"
+                >
+                  Read More <ChevronsRightIcon size={18} />
+                </Link>
+                <Link
+                  href="/"
+                  className="flex items-center gap-2 ring-1 ring-primary text-primary px-8 py-4"
+                >
+                  View All Services <ChevronsRightIcon size={18} />
+                </Link>
+              </div>
+            </div>
+            <div className="col-span-6"></div>
+          </div>
+        </div>
+      </section>
+      <section className="absolute inset-0 z-0 overflow-hidden">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -48,33 +77,6 @@ export default function Overview(params) {
                 className="object-cover object-center"
               />
               <div className="absolute inset-0 bg-dark/90"></div>
-              <div className="absolute z-10 inset-0 flex items-center text-white max-w-7xl mx-auto">
-                <div className="grid grid-cols-12 gap-10 pt-20">
-                  <div className="col-span-6">
-                    <h4 className="text-primary font-medium text-xl mb-4">
-                      Welcome to our Barbex
-                    </h4>
-                    <h1 className="text-7xl font-medium tracking-tight leading-[5rem]">
-                      Best Hair Salon for a Professional Look
-                    </h1>
-                    <div className="flex items-center gap-4 pt-6">
-                      <Link
-                        href="/"
-                        className="flex items-center gap-2 bg-primary text-white px-8 py-4"
-                      >
-                        Read More <ChevronsRightIcon size={18} />
-                      </Link>
-                      <Link
-                        href="/"
-                        className="flex items-center gap-2 ring-1 ring-primary text-primary px-8 py-4"
-                      >
-                        View All Services <ChevronsRightIcon size={18} />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-span-6"></div>
-                </div>
-              </div>
             </div>
           ))}
         </div>
