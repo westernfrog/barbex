@@ -8,7 +8,7 @@ body {
   color: #0f1212;
   background-color: #eee;
   font-family: var(--font-headingSans);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 p {

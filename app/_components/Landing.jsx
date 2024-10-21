@@ -31,7 +31,7 @@ export default function Landing(params) {
   return (
     <>
       <section className="h-screen">
-        <section className="absolute z-0 inset-0 overflow-hidden">
+        <section className="absolute inset-0 overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
