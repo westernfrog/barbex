@@ -54,13 +54,13 @@ export default function Landing(params) {
           </div>
           <button
             onClick={prevSlide}
-            className="absolute lg:bottom-1/2 bottom-5 lg:left-10 left-6 transform -translate-y-1/2 ring-1 ring-primary hover:bg-primary hover:text-white text-primary lg:p-3 p-1 rounded-full transition duration-300 ease-in-out"
+            className="absolute z-40 lg:bottom-1/2 bottom-5 lg:left-10 left-6 transform -translate-y-1/2 ring-1 ring-primary hover:bg-primary hover:text-white text-primary lg:p-3 p-1 rounded-full transition duration-300 ease-in-out"
           >
             <ArrowLeftIcon className="lg:w-auto w-4 lg:h-6 h-auto" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute lg:bottom-1/2 bottom-5 lg:right-10 right-6 transform -translate-y-1/2 ring-1 ring-primary hover:bg-primary hover:text-white text-primary lg:p-3 p-1 rounded-full transition duration-300 ease-in-out"
+            className="absolute z-40 lg:bottom-1/2 bottom-5 lg:right-10 right-6 transform -translate-y-1/2 ring-1 ring-primary hover:bg-primary hover:text-white text-primary lg:p-3 p-1 rounded-full transition duration-300 ease-in-out"
           >
             <ArrowRightIcon className="lg:w-auto w-4 lg:h-6 h-auto" />
           </button>
